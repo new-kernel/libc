@@ -1,0 +1,11 @@
+[package]
+name = "stdio"
+authors = ["Nathan McMillan <nathanmcmillan54@gmail.com>", "The Novusk developers"]
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "stdio"
+edition = "2021"
+crate-type = ["staticlib"]
+path = "src/lib.rs"
